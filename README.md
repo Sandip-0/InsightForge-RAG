@@ -494,13 +494,7 @@ This project demonstrates practical implementation of:
 
 B.Tech Computer Science & Engineering
 
-Interested in:
 
-* Data Science
-* Machine Learning
-* Generative AI
-* Retrieval-Augmented Generation
-* Natural Language Processing
 
 ---
 
