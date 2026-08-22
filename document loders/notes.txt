@@ -1,0 +1,4 @@
+The quick brown fox jumps over the lazy dog. 
+This is a simple plain text sample used for testing files, code editors, or layouts. 
+Plain text files do not contain bold fonts, colors, or images. 
+They work on almost every computer and operating system.

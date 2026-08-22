@@ -1,0 +1,33 @@
+# Environment variables
+.env
+
+# Virtual environment
+.venv/
+venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter Notebook
+.ipynb_checkpoints/
+
+# Streamlit
+.streamlit/secrets.toml
+
+# Chroma database
+chroma_langchain_db/
+
+# Temporary files
+*.tmp
+*.temp
+
+# macOS
+.DS_Store
+
+# IDE
+.vscode/
+.idea/
+
+# Logs
+*.log
