@@ -238,6 +238,11 @@ source .venv/bin/activate
 ```bash
 uv pip install -r requirements.txt
 ```
+or
+```bash
+pip install -r requirements.txt
+```
+
 
 ---
 
