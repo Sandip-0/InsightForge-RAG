@@ -269,7 +269,7 @@ def rewrite_query(question: str, history: str):
 # SIDEBAR
 # ============================================================
 with st.sidebar:
-    st.markdown("<h3 style='color: #f8fafc; margin-bottom: 1.5rem;'>📚 Knowledge Base</h3>", unsafe_allow_html=True)
+    st.markdown("<h3 style='color:#E6F1FF; margin-bottom: 1.5rem;'>InsightForge-RAG 🔎</h3>", unsafe_allow_html=True)
     
     uploaded_file = st.file_uploader("Upload PDF", type=["pdf"], label_visibility="collapsed")
     if uploaded_file and st.button("Process PDF", use_container_width=True):
