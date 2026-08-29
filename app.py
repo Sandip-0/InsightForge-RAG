@@ -23,7 +23,7 @@ st.set_page_config(
 )
 
 # ============================================================
-# CUSTOM CSS (BLUE-GLASS THEME + TRANSPARENT BOTTOM FIX)
+# CUSTOM CSS (BLUE-GLASS THEME + SIDEBAR TOGGLE FIX)
 # ============================================================
 st.markdown(
     """
@@ -42,7 +42,10 @@ st.markdown(
         padding-top: 3rem;
         padding-bottom: 8rem;
     }
-    #MainMenu, footer, header { visibility: hidden !important; background: transparent !important; }
+    
+    /* FIX: Hide menu and footer, but keep header visible so sidebar toggle works */
+    #MainMenu, footer { visibility: hidden !important; }
+    header { background: transparent !important; } 
 
     /* 2. SIDEBAR */
     section[data-testid="stSidebar"] {
